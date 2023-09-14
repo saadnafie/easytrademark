@@ -1,0 +1,27 @@
+[16-Jul-2020 15:21:59 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Jul-2020 15:21:59 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[16-Jul-2020 15:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/CliDumper.php(564): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpStri in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[16-Jul-2020 15:22:44 UTC] PHP Fatal error:  Declaration of Carbon\Translator::setLocale($locale) must be compatible with Symfony\Contracts\Translation\LocaleAwareInterface::setLocale(string $locale) in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/nesbot/carbon/src/Carbon/Translator.php on line 18
+[16-Jul-2020 15:22:44 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Symfony\Component\HttpFoundation\Response::setStatusCode() must be an instance of Symfony\Component\HttpFoundation\object, instance of Symfony\Component\HttpFoundation\Response returned in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/http-foundation/Response.php:475
+Stack trace:
+#0 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/http-foundation/Response.php(219): Symfony\Component\HttpFoundation\Response->setStatusCode(500)
+#1 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/http-foundation/Response.php(239): Symfony\Component\HttpFoundation\Response->__construct('<!doctype html>...', 500, Array)
+#2 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#3 /home1/saudisurvey/public_html/ in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/http-foundation/Response.php on line 475
+[16-Jul-2020 15:23:24 UTC] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20170718
+These options need to match
+ in Unknown on line 0
+[16-Jul-2020 15:23:24 UTC] PHP Fatal error:  Interface 'JsonSerializable' not found in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/laravel/framework/src/Illuminate/Support/Enumerable.php on line 11
+[16-Jul-2020 15:23:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/CliDumper.php(564): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/CliDumper.php(259): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpStri in /home1/saudisurvey/public_html/native-learn.com/saad_easytrademark/v1/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
